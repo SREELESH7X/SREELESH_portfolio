@@ -151,6 +151,12 @@ html, body {
 /*---------*/
 /*425px*/
 @media(max-width:425px) {
+  .gallery-container img {
+        width: 100% !important;
+        height: auto !important;
+        display: block; 
+        margin-bottom: 10px;
+    }
   
   .col_6.logo, 
   .col_6.menu {

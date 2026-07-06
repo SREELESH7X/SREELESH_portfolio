@@ -1,4 +1,4 @@
-for (var i = 1; i <= 6; i++) {
+for (var i = 1; i <= 12; i++) {
 
   document.getElementById("img_area").innerHTML += '<img src="img/' + i + '.jpg" onclick = "show(' + i + ')" > ';
 }
@@ -12,3 +12,4 @@ function show(s) {
 
 function hide() {
   document.getElementById("frame").style.display = "none";
+}

@@ -8,6 +8,7 @@ function show(s) {
   document.getElementById("pic").src = "img/" + s + ".jpg";
 
 
+
 }
 
 function hide() {

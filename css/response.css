@@ -150,8 +150,7 @@
   *{margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
-  
+   
   
   }
   .pc_menu {
@@ -162,7 +161,8 @@
     position: absolute;
     top: 20px;
     left: 0;
-    background-color: #285a71;
+    background-color: #285a71; overflow-x: hidden;
+  
   }
   .menu ul {
     float: left;

@@ -1,0 +1,384 @@
+* {
+	scroll-behavior: smooth;
+	scroll-padding-top: 75px;/*  font-family: "Arial Black";*/
+
+}
+/*navigation___area*/
+.nav {
+	background-color: #285a71;
+	padding: 20px 0;
+	border-bottom: 5px solid #63DA5A;
+	backdrop-filer: blur(10px);
+	position: sticky;
+	top: 0;
+	z-index: 10000;
+}
+.logo h1 {
+	font-family: "Arial Black";
+	float: left;
+	color: white;
+	font-size: 50px;
+	list-style: none;
+	/*  margin-top: 50px;*/
+	line-height: 25px;
+	margin-right: 25px
+} /*____mobile____*/
+.menu {
+	display: none;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	float: left;
+	list-style: none;
+	line-height: 25px;
+	margin-right: 25px;
+}
+.menu ul li a {
+	background-color: #285a71;
+	padding: 15px 25px;
+	font-family: "Arial Black";
+	color: white;
+	border-radius: 15px;/*  	transition: 0.3s ease;*/
+}
+.menu ul li a:hover {
+	background-color: #63DA5A;
+	color: #285a71;
+}
+/*______pc_____*/
+.pc_menu ul {
+	/*	display: none;*/
+	float: right;
+}
+.pc_menu ul li {
+	float: left;
+	list-style: none;
+	line-height: 25px;
+	margin-right: 25px;
+}
+.pc_menu ul li a {
+	background-color: #285a71;
+	padding: 15px 25px;
+	font-family: "Arial Black";
+	color: white;
+	border-radius: 15px;/*  	transition: 0.3s ease;*/
+}
+.pc_menu ul li a:hover {
+	background-color: #63DA5A;
+	color: #285a71;
+}
+.toggle {
+	display: none;
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+/*navigation___area___end*/
+/*--------*/
+/*banner_____area*/
+.banner {
+	/*      background-color: aqua;*/
+	text-align: center;
+	/*  padding-bottom: 200px;*/
+	font-family: "Arial Black";
+}
+.iam-sreelesh h1 {
+	text-transform: uppercase;
+	font-size: 100px;
+	padding-top: 200px;
+}
+.sreelesh {
+	color: #63DA5A;
+	font-size: 100px;
+	animation-name: zoom;
+	animation-duration: 2s;
+}
+.sreelesh span {
+	color: #285a71;
+}
+.banner-pic {
+	animation-name: slidleft;
+	animation-duration: 2s;
+}
+/*banner_____area___end*/
+/*----------*/
+/*About us_____area*/
+.about-area {
+	margin-top: 100px;
+	margin-left: 25px;
+}
+.about_me {
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+.about_me h2 {
+	font-family: "Arial Black";
+	color: #285a71;
+	font-size: 50px;
+	display: contents;
+	float: right;
+}
+.about-area p {
+	float: right;
+	margin-top: 15px;
+	font-size: 20px;
+}
+.about-area p span {
+	color: #63DA5A;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.about_pic {
+	float: left;
+	margin-left: 80px;
+	margin-top: 5px
+}
+/*About us_____area____end*/
+/*--------*/
+/*Resume_____area*/
+/* ------- */
+/*Education----area*/
+.box_1 {
+	color: #63DA5A;
+	font-size: 40px;
+	font-family: "Arial Black";
+	text-align: center;
+}
+.box_2 {
+	border: 10px th #63DA5A;
+	text-align: left;/*  padding-left: 100px;*/
+}
+.box_2 h4 {
+	color: #285a71;
+	font-family: "Arial Black";
+	/*  text-align: center;*/
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+.box_2 ul li {
+	color: #63DA5A;
+	font-family: "sans-serif";
+	text-transform: uppercase;
+	font-size: 20px;
+	list-style: none;
+}
+.span_1 {
+	color: #285a71;
+	font-size: 25px;
+}
+.span_2 {
+	color: gray;
+	font-size: 15px;
+}
+/*Education----area---end*/
+/*--------*/
+/*Tehnical Skills----area*/
+.tools h4 {
+	text-align: center;
+	color: #285a71;
+	font-family: "Arial Black";
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+.tools {
+	margin-left: 20px;
+	float: right;
+	font-family: "Arial Black";
+	font-size: 15px;
+	font-weight: 300;
+	/*  background-color: violet;*/
+	color: #285a71;
+}
+.tools h3 {
+ font-size: 1.rem;
+}
+.skills-wrapper {
+	padding: 0 20px;
+}
+.skills-wrapper .bar {
+	margin: 10px;
+}
+.skills-wrapper .bar .progress-bar {
+	width: 100%;
+	height: 15px;
+	background-color: #285a71;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.skills-wrapper .bar .progress-bar span {
+	position: absolute;
+	height: 100%;
+	/*	width: 70%;*/
+	border-radius: 10px;
+	animation: zoom 1.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+	background-color: #63DA5A;
+}
+.Photoshop {
+	width: 80%;
+}
+.Illustrator {
+	width: 60%
+}
+.Maya {
+	width: 70%;
+}
+.Blender {
+	width: 60%;
+}
+.Max {
+	width: 60%;
+}
+.Cinema_4D {
+	width: 40%;
+}
+.Autocad {
+	width: 40%;
+}
+.after_effect {
+	width: 50%;
+}
+.SketchUp{
+	width: 30%;
+}
+.info a {
+	color: #285a71;
+}
+/*Tehnical Skills----area----end*/
+.web {
+	float: left;
+	font-family: "Arial Black";
+	margin-top: 30px;
+	margin-left: 20%;
+	font-size: 15px;
+	font-weight: 300;
+	background-color: #63DA5A;
+	border-radius: 10%;
+	color: #63DA5A;
+}
+.web h3 {
+	text-align: center;
+	color: #285a71;
+	font-family: "Arial Black";
+	font-size: 20px;/*  margin-bottom: 40px;*/
+}
+.web p {
+	color: white;
+	margin-bottom: 10px;
+	padding-top: 25px;
+	font-family: "Arial Black";
+	font-size: 16px;
+	font-weight: 200;
+}
+.basic {
+	margin-bottom: 10px;
+	text-align: center;
+	color: #63DA5A;
+	background-color: #285a71;
+	border-radius: 15px;
+}
+.hobbies-img {
+}
+.hobbies_address {
+	margin-top: 150px;/*  float: left;*//*  float: right;*/
+}
+.address {
+	margin-top: 50px;
+	color: #285a71;
+	font-family: "Arial Black";
+	text-align: center;
+	border-radius: 15px;
+	background-color: #63DA5A;
+	padding: 25px;
+	float: left;
+}
+.hobbies {
+	padding-left: 10px;/*  background-color: yellow;*/
+}
+.hobbies ul li {
+	float: left;
+	list-style: none;
+	line-height: 30px;
+	padding: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #285a71;
+	background-color: #63DA5A;
+	border-radius: 10px;
+	margin-left: 40px;
+	font-family: "Arial Black";
+	animation-name: zoom;
+	animation-duration: 2s;
+}
+.hobbies h3 {
+	background-color: #63DA5A;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: "Arial Black";
+	color: #285a71;
+}
+/*Tehnical Skills----area----end*/
+/*---------*/
+/*Resume_____area_____end*/
+/*Contacts-----area*/
+.contacts-----area {
+	background-color: #285a71;
+	border-top: 30px solid #63DA5A
+}
+.contacts {
+/*  background-color:#285a71;*/
+}
+.contacts__h1 {
+	text-align: center;
+	font-family: "Arial Black";
+	color: #63DA5A;
+	margin-bottom: 30px;
+}
+.contacts__h2 {
+	font-size: 30px;
+	font-family: "Arial Black";
+	color: #63DA5A;
+}
+.contacts__h3 {
+	font-family: "Arial Black";
+	color: #63DA5A;
+	margin-bottom: 10px;
+}
+.contacts___pic {
+	animation-name: slideup;
+	animation-duration: 2s;
+}
+.form {
+	background-color: #63DA5A;
+	border-radius: 30px;
+	margin-left: 29px;
+	text-align: center;
+}
+.form_name {
+	border-radius: 10px;
+	border: none;
+	margin: 10px;
+	padding: 7px;
+}
+#m1 {
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+.send {
+	padding: 5px 50px;
+	border-radius: 20px;
+	background-color: #285a71;
+	color: white;
+}
+.send:hover {
+	/*	border: #FFFFFF;*/
+	background-color: #63DA5A;
+	animation-name: shrink;
+	animation-duration: 2s;
+}
+/*Contacts-----area----end*/
+/*-----end------*/
+/*------------*/

@@ -1,0 +1,39 @@
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes slidleft {
+  from {
+    transform: translateX(100%)
+  }
+}
+@keyframes slideright {
+  to {
+    transform: translateX(100%)
+  }
+}
+@keyframes slideup {
+  from {
+    transform: translateY(100%)
+  }
+}
+@keyframes grow {
+  50% {
+    transform: scale(2, 2)
+  }
+}
+@keyframes shrink {
+  50% {
+    transform: scale(0.5, 0.5)
+  }
+}
+@keyframes fade {
+  50% {
+    opacity: 0
+  }
+}
+ 

@@ -1,0 +1,22 @@
+.img_area {
+  columns: 4 250px;
+}
+.img_area img {
+  width: 100%;
+  padding: 1%;
+  border-radius: 50px;
+}
+.frame {
+  background-color: rgba(0, 0, 0, 0.70);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 50px 0;
+  display: none;
+}
+.frame img {
+  height: 100%;
+  display: inline-block;
+}

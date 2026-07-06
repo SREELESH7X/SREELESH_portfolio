@@ -1,6 +1,7 @@
 * {
 	scroll-behavior: smooth;
 	scroll-padding-top: 75px;/*  font-family: "Arial Black";*/
+	
 
 }
 /*navigation___area*/
@@ -330,6 +331,15 @@
 }
 .contacts {
 /*  background-color:#285a71;*/
+}
+.contacts__h3 a {
+    color: #63DA5A;
+    text-decoration: none; 
+}
+
+
+.contacts__h3 a:hover {
+    color: rgba(255, 255, 255, 0.301); 
 }
 .contacts__h1 {
 	text-align: center;

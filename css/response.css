@@ -147,14 +147,6 @@
 /*---------*/
 /*425px*/
 @media(max-width:425px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    scroll-padding-top: 75px;
-    overflow-x: hidden;
-}
   .pc_menu {
     display: none;
   }

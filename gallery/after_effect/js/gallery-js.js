@@ -5,7 +5,7 @@ for (var i = 1; i <= 6; i++) {
 
 function show(s) {
   document.getElementById("frame").style.display = "block";
-  document.getElementById("pic").src = "img/" + s + ".jpg";
+  document.getElementById("pic").src = "gallery/after_effect/img/" + s + ".jpg";
 
 
 }

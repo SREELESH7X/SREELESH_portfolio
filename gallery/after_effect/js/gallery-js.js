@@ -1,6 +1,6 @@
 for (var i = 1; i <= 6; i++) {
 
-  document.getElementById("img_area").innerHTML += '<img src="img/' + i + '.jpg" onclick = "show(' + i + ')" > ';
+document.getElementById("img_area").innerHTML += '<img src="img/' + i + '.jpg" onclick = "show(' + i + ')" > ';
 }
 
 function show(s) {

@@ -157,6 +157,16 @@ html, body {
         display: block; 
         margin-bottom: 10px;
     }
+    .img_area {
+    columns: 1 !important; 
+    display: block;
+    
+  }
+  .img_area img {
+        width: 100% !important;
+        height: auto !important;
+        
+    }
   
   .col_6.logo, 
   .col_6.menu {

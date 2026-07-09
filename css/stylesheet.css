@@ -247,6 +247,16 @@
 .info a {
 	color: #285a71;
 }
+
+.bar-link {
+    text-decoration: none !important; 
+    color: inherit !important;       
+}
+
+
+.bar-link .info span {
+    color: #285a71; 
+}
 /*Tehnical Skills----area----end*/
 .web {
 	float: left;
@@ -280,8 +290,8 @@
 	background-color: #285a71;
 	border-radius: 15px;
 }
-.hobbies-img {
-}
+/* .hobbies-img {
+} */
 .hobbies_address {
 	margin-top: 150px;/*  float: left;*//*  float: right;*/
 }

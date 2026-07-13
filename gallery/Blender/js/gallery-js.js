@@ -1,4 +1,4 @@
-for (var i = 1; i <= 28; i++) {
+for (var i = 1; i <= 27; i++) {
 
   document.getElementById("img_area").innerHTML += '<img src="img/' + i + '.jpg" onclick = "show(' + i + ')" > ';
 }
